@@ -1,6 +1,6 @@
 # What You Get: Automated Claude Code Setup
 
-**TL;DR**: Run `/init-automation` in any new project → Answer 8 questions → Get fully customized automation in 10 minutes.
+**TL;DR**: Use this as a GitHub template OR run `/init-automation` in any new project → Answer 8 questions → Get fully customized automation in 10 minutes.
 
 ---
 
@@ -110,10 +110,12 @@ When you run `/init-automation`, Claude generates these files customized to YOUR
 
 ### Scenario: New TypeScript API Project
 
-**Step 1: Copy Template**
+**Step 1: Use GitHub Template**
 ```bash
+# Click "Use this template" on GitHub
+# Create new repository: my-new-api
+# Clone it
 cd ~/my-new-api
-cp -r ~/toad/NEW_PROJECT/.claude .
 ```
 
 **Step 2: Initialize**
